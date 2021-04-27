@@ -1,0 +1,28 @@
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 2.5rem;
+
+    &_text {
+        margin-left: 80px;
+        margin-bottom: 200px;
+    }
+
+    &_area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+

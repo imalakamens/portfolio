@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #ffffff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 4.167px;
+      }
+
+      .cls-2 {
+        fill: #ffffff;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="261.5" cy="485.5" r="146.5"/>
+  <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-2" cx="512.5" cy="487.5" r="146.5"/>
+  <circle id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" cx="759.5" cy="487.5" r="146.5"/>
+  <circle id="Ellipse_1_copy_4" data-name="Ellipse 1 copy 4" class="cls-2" cx="759.5" cy="487.5" r="146.5"/>
+</svg>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    padding: 80px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 31.25rem;
+    font-size: 1.875rem;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 3.125rem;
+}
+
+p, .button {
+    font-size: 1.875rem;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: .938rem;
+    font-weight: 300;
+}
+
+h1, p {
+    margin: 0;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+    border-radius: 1.875rem;
+    margin-top: 15px;
+    background-color: coral;
+}
+
+.button:hover {
+    background-color: rgb(249, 175, 147);
+}
+
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.logo {
+    height: 100px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.container-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+@media only screen and (max-width: 1000px){
+    ul {
+        display: none;
+        background-color: #3f4153;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #3f4153;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    #about-me.container {
+        flex-direction: column-reverse;
+        margin: 10px;
+        padding: 0;
+    }
+
+    ul.show {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+}
